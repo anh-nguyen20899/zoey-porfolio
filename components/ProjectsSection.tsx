@@ -9,14 +9,14 @@ const projects = [
     name: "LearnIt Platform",
     description:
       "This platform is a web app that keeps track of lessons progress",
-    image: "/learnIt.png",
+    image: "learnIt.png",
     github: "https://github.com/anh-nguyen20899/learning-mern-project",
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
     name: ".Net web api",
     description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
-    image: "/float-project-management.png",
+    image: "float-project-management.png",
     github: "https://github.com/anh-nguyen20899/store_items",
     link: "",
   },
@@ -38,8 +38,8 @@ const ProjectsSection = () => {
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
                     <Link href={project.link}>
-                      <img
-                        src={project.image}
+                      <Image
+                        src={`/${project.image}`}
                         alt=""
                         width={1000}
                         height={1000}
