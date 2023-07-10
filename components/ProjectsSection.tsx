@@ -9,14 +9,14 @@ const projects = [
     name: "LearnIt Platform",
     description:
       "This platform is a web app that keeps track of lessons progress",
-    image: "learnIt.png",
+    image: "static/img/learnIt.png",
     github: "https://github.com/anh-nguyen20899/learning-mern-project",
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
     name: ".Net web api",
     description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
-    image: "float-project-management.png",
+    image: "static/img/float-project-management.png",
     github: "https://github.com/anh-nguyen20899/store_items",
     link: "",
   },
