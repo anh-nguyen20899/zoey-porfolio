@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import ProjectsSection from "./ProjectsSection"
 
 const HeroSection = () => {
   return (
@@ -51,6 +52,7 @@ const HeroSection = () => {
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
       </div>
+      <ProjectsSection />
     </section>
   )
 }
