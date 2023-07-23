@@ -25,7 +25,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Sydney, NSW. I have 2 years experience working as a front-end developer with VueJS, Angular 8+, Angular JS and ReactJS projects
+            based in Sydney, NSW. I have 2 years experience working as a web developer with .Net MVC, Java, VueJS, Angular 8+, and ReactJS projects
           </p>
           <Link
             to="projects"

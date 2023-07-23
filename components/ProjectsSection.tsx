@@ -9,21 +9,21 @@ const projects = [
     name: "LearnIt Platform",
     description:
       "This platform is a web app that keeps track of lessons progress",
-    image: "static/img/learnIt.png",
+    image: "/learnIt.png",
     github: "https://github.com/anh-nguyen20899/learning-mern-project",
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
     name: ".Net Web API",
     description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
-    image: "static/img/float-project-management.png",
-    github: "https://github.com/anh-nguyen20899/store_items",
-    link: "https://github.com/anh-nguyen20899/web-mvc",
+    image: "/aspnet.jpg",
+    github: "https://github.com/anh-nguyen20899/webapi-dotnet",
+    link: "https://github.com/anh-nguyen20899/webapi-dotnet",
   },
   {
     name: "ASP.Net Web MVC for Employees Management",
     description: "Platform allows admistrator to perform CRUD operation on their employees system",
-    image: "static/img/float-project-management.png",
+    image: "/float-project-management.png",
     github: "https://github.com/anh-nguyen20899/web-mvc",
     link: "https://github.com/anh-nguyen20899/web-mvc",
   },
@@ -38,13 +38,15 @@ const ProjectsSection = () => {
       </h1>
 
       <div className="flex flex-col space-y-28">
-      <div key="p1">
+      {projects.map((project, idx) => {
+          return (
+            <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={projects[0].link}>
+                    <Link href={project.link}>
                       <Image
-                        src={`/${projects[0].image}`}
+                        src={project.image}
                         alt=""
                         width={1000}
                         height={1000}
@@ -53,18 +55,18 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{projects[0].name}</h1>
+                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                      {projects[0].description}
+                      {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={projects[0].github} target="_blank">
+                      <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={projects[0].link} target="_blank">
+                      <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
@@ -75,43 +77,8 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-            <div key="p2">
-              <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
-                    <Link href={projects[1].link}>
-                      <Image
-                        src={`/${projects[1].image}`}
-                        alt=""
-                        width={1000}
-                        height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
-                      />
-                    </Link>
-                  </div>
-                  <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{projects[1].name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                      {projects[1].description}
-                    </p>
-                    <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={projects[1].github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                      <Link href={projects[1].link} target="_blank">
-                        <BsArrowUpRightSquare
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </SlideUp>
-            </div>     
+          )
+        })}
       </div>
     </section>
   )
