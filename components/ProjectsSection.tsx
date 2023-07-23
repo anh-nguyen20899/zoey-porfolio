@@ -14,11 +14,18 @@ const projects = [
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
-    name: ".Net web api",
+    name: ".Net Web API",
     description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
     image: "static/img/float-project-management.png",
     github: "https://github.com/anh-nguyen20899/store_items",
-    link: "",
+    link: "https://github.com/anh-nguyen20899/web-mvc",
+  },
+  {
+    name: "ASP.Net Web MVC for Employees Management",
+    description: "Platform allows admistrator to perform CRUD operation on their employees system",
+    image: "static/img/float-project-management.png",
+    github: "https://github.com/anh-nguyen20899/web-mvc",
+    link: "https://github.com/anh-nguyen20899/web-mvc",
   },
 ]
 
