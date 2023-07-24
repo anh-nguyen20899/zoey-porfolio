@@ -6,12 +6,16 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "VueJs" },
+  { skill: "VueJS" },
+  { skill: "ReactJS" },
+  { skill: "NextJS" },
   { skill: "Angular 8+" },
   { skill: "C# Dotnet" },
+  { skill: "Java" },
   { skill: "Python" },
+  { skill: "SQL/NoSQL" },
   { skill: "Git" },
-  { skill: "GitHub" },
+  { skill: "AWS" },
 ]
 
 const AboutSection = () => {
