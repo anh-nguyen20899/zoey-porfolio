@@ -14,6 +14,22 @@ const projects = [
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
+    name: "Carina EyeCare ",
+    description:
+      "This platform is about to provide Optometry Services in Burwood",
+    image: "/next.svg",
+    github: "https://github.com",
+    link: "https://carinaeyecare.com.au/",
+  },
+  {
+    name: "Todo App",
+    description:
+      "This is a simple todo App written by ReactJS",
+    image: "/vercel.svg",
+    github: "https://github.com/anh-nguyen20899/react-todo-app",
+    link: "https://react-todo-app-six-zeta.vercel.app/",
+  },
+  {
     name: ".Net Web API",
     description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
     image: "/aspnet.jpg",
