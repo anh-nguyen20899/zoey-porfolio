@@ -3,6 +3,7 @@ import Image from "next/image"
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
+  AiOutlineMail
 } from "react-icons/ai"
 const skills = [
   { skill: "HTML CSS" },
@@ -36,7 +37,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Anh and I am an{" "}
+              Hi, my name is Lan Anh and I am an{" "}
               <span className="font-bold">{"ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span> software engineer
               based in Sydney, NSW.
@@ -87,6 +88,21 @@ const AboutSection = () => {
                 size={30}
               />
             </a>
+            <span className="font-bold text-teal-500"> Github </span>
+            <a href="https://github.com/anh-nguyen20899" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <span className="font-bold text-teal-500"> Email </span>
+            <a href="mailto:anhananh1999@.com" rel="noreferrer" target="_blank">
+            <AiOutlineMail
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
             
           </div>
           
