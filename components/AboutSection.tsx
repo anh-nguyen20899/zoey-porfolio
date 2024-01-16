@@ -1,6 +1,9 @@
 import React from "react"
 import Image from "next/image"
-
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai"
 const skills = [
   { skill: "HTML CSS" },
   { skill: "Tailwind CSS" },
@@ -71,6 +74,22 @@ const AboutSection = () => {
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
             />
           </div>
+          <div className="text-center md:w-1/2 md:text-left">
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Contact: </h1>
+            <span className="font-bold text-teal-500"> LinkedIn </span>
+            <a
+              href="https://www.linkedin.com/in/anh-nguyen-54647b217/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineLinkedin
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
+            
+          </div>
+          
         </div>
       </div>
     </section>
