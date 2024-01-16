@@ -93,14 +93,14 @@ const AboutSection = () => {
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
-            />
+            /> 
           </a>
           <span className="font-bold text-teal-500"> Email </span>
-            <a href="mailto:anhananh1999@.com" rel="noreferrer" target="_blank">
+          <a href="mailto:anhananh1999@gmail.com" target="_blank">
             <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
-            />
+            /> anhananh1999@gmail.com
           </a>
 
             
