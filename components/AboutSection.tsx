@@ -40,7 +40,7 @@ const AboutSection = () => {
               Hi, my name is Lan Anh and I am an{" "}
               <span className="font-bold">{"ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span> software engineer
-              based in Sydney, NSW.
+              {/* based in Sydney, NSW. */}
             </p>
             <br />
             <p>
