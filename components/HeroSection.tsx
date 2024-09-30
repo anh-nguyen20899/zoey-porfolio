@@ -23,10 +23,10 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "} and 
+              Software Engineer{" "}
             </span>
             {/* based in Sydney, NSW */}
-            I have 2 years experience working as a web developer with .Net MVC, Java, VueJS, Angular 8+, and ReactJS projects
+             and I have 2 years experience working as a web developer with .Net MVC, Java, VueJS, Angular 8+, and ReactJS projects
           </p>
           <Link
             to="projects"
