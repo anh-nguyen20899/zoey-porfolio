@@ -26,7 +26,7 @@ const HeroSection = () => {
               Software Engineer{" "}
             </span>
             {/* based in Sydney, NSW */}
-             and I have 2 years experience working as a web developer with .Net MVC, Java, VueJS, Angular 8+, and ReactJS projects
+             and I have 3 years experience working as a web developer with .Net MVC, Java, VueJS, Angular 8+, and ReactJS projects
           </p>
           <Link
             to="projects"

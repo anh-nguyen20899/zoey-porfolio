@@ -2,16 +2,15 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, BsArrowUpRightSquare, BsLinkedin } from "react-icons/bs"
 
 const projects = [
   {
-    name: "LearnIt Platform",
-    description:
-      "This platform is a web app that keeps track of lessons progress",
-    image: "/learnIt.png",
-    github: "https://github.com/anh-nguyen20899/learning-mern-project",
-    link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
+    name: ".Net Web API",
+    description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
+    image: "/aspnet.jpg",
+    github: "https://github.com/anh-nguyen20899/webapi-dotnet",
+    link: "https://github.com/anh-nguyen20899/webapi-dotnet",
   },
   {
     name: "Carina EyeCare ",
@@ -22,6 +21,14 @@ const projects = [
     link: "https://carinaeyecare.com.au/",
   },
   {
+    name: "LearnIt Platform",
+    description:
+      "This platform is a web app that keeps track of lessons progress",
+    image: "/learnIt.png",
+    github: "https://github.com/anh-nguyen20899/learning-mern-project",
+    link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
+  },
+  {
     name: "Todo App",
     description:
       "This is a simple todo App written by ReactJS",
@@ -30,18 +37,20 @@ const projects = [
     link: "https://react-todo-app-six-zeta.vercel.app/",
   },
   {
-    name: ".Net Web API",
-    description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
+    name: "Health Care Management",
+    description: ".",
     image: "/aspnet.jpg",
-    github: "https://github.com/anh-nguyen20899/webapi-dotnet",
-    link: "https://github.com/anh-nguyen20899/webapi-dotnet",
+    github:"",
+    linkedIn: "https://www.linkedin.com/company/telstra-health_health-services/",
+    link: "https://www.telstrahealth.com/",
   },
   {
-    name: "ASP.Net Web MVC for Employees Management",
-    description: "Platform allows admistrator to perform CRUD operation on their employees system",
-    image: "/float-project-management.png",
-    github: "https://github.com/anh-nguyen20899/web-mvc",
-    link: "https://github.com/anh-nguyen20899/web-mvc",
+    name: "Recruitment Platform",
+    description: ".",
+    image: "/aspnet.jpg",
+    github:"",
+    linkedIn: "https://www.linkedin.com/company/pursuited/?originalSubdomain=au",
+    link: "https://www.pursuited.com/platform/",
   },
 ]
 
@@ -76,12 +85,20 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
+                      {project.github ? (
                       <Link href={project.github} target="_blank">
-                        <BsGithub
+                      <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> ) : project.linkedIn ? (
+                          <Link href={project.linkedIn} target="_blank">
+                        <BsGithub
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      ) : null }
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
