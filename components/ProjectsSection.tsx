@@ -41,7 +41,7 @@ const projects = [
     name: "Carina EyeCare Optometry",
     description:
       "This platform is about to provide Optometry appointments, get expert advice, and access trusted eye care in Burwood",
-    image: "/eyecare.png",
+    image: "/eyecare.jpg",
     linedIn: "https://www.linkedin.com/in/carinatrinh/?originalSubdomain=au",
     link: "https://carinaeyecare.com.au/",
   },
