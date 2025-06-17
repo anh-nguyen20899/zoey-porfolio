@@ -100,7 +100,7 @@ const AboutSection = () => {
             <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
-            /> anhananh1999@gmail.com
+            /> lananh2081999@gmail.com
           </a>
 
             

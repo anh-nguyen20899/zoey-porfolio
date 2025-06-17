@@ -6,51 +6,52 @@ import { BsGithub, BsArrowUpRightSquare, BsLinkedin } from "react-icons/bs"
 
 const projects = [
   {
-    name: "PTE Platform",
-    description: "Our team built a unique online PTE academic preparation software to all students who are willing to study hard and achieve a high score to fulfil their dream of studying and working abroad",
-    image: "/aspnet.jpg",
-    github: "https://github.com/anh-nguyen20899/webapi-dotnet",
-    link: "https://github.com/anh-nguyen20899/webapi-dotnet",
+    name: "PTE Master",
+    description: "Our team built a unique online PTE academic preparation software to all students who are willing to study hard and achieve a high score to fulfil their dream of studying and working abroad.",
+    image: "/ptemaster.png",
+    github: "",
+    linkedIn:"https://www.linkedin.com/company/pte-master/?originalSubdomain=au",
+    link: "https://www.masterpte.com.au/",
   },
   {
     name: "LearnIt Platform",
     description:
-      "This platform is a web app that keeps track of lessons progress",
+      "This platform is a side project - web app that helps keep track of lessons progress",
     image: "/learnIt.png",
     github: "https://github.com/anh-nguyen20899/learning-mern-project",
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
   },
   {
-    name: "Health Care Management",
-    description: ".",
-    image: "/aspnet.jpg",
+    name: "Health Care Management - Telstra Health",
+    description: "By providing software products, solutions and platforms, we work with care providers in the hospital, health service, pharmacy, and aged and disability care sectors to connect health information, clinicians and consumers.",
+    image: "/medicaldirector.png",
     github:"",
     linkedIn: "https://www.linkedin.com/company/telstra-health_health-services/",
     link: "https://www.telstrahealth.com/",
   },
   {
-    name: "Recruitment Platform",
-    description: ".",
-    image: "/aspnet.jpg",
+    name: "Recruitment Platform - Pursuited",
+    description: "Pursuited is a recruitment platform built with candidates in mind. You fill out your profile, nominate what you want and let your future employer find you.",
+    image: "/pursuited.png",
     github:"",
     linkedIn: "https://www.linkedin.com/company/pursuited/?originalSubdomain=au",
     link: "https://www.pursuited.com/platform/",
   },
   {
-    name: "Carina EyeCare ",
+    name: "Carina EyeCare Optometry",
     description:
-      "This platform is about to provide Optometry Services in Burwood",
+      "This platform is about to provide Optometry appointments, get expert advice, and access trusted eye care in Burwood",
     image: "/next.svg",
-    github: "https://github.com",
+    linedIn: "https://www.linkedin.com/in/carinatrinh/?originalSubdomain=au",
     link: "https://carinaeyecare.com.au/",
   },
   {
-    name: "Todo App",
+    name: "Employment Service Provider - Ready Tech",
     description:
-      "This is a simple todo App written by ReactJS",
-    image: "/vercel.svg",
-    github: "https://github.com/anh-nguyen20899/react-todo-app",
-    link: "https://react-todo-app-six-zeta.vercel.app/",
+      "The platform helps employment providers to activate, support, place and retain the right people in the right jobs by combining technology with human understanding. ",
+    image: "/readytech.png",
+    linkedIn: "https://www.linkedin.com/company/readytechau/",
+    link: "https://www.readytech.com.au/what-we-do/employment-services/overview",
   },
 ]
 
