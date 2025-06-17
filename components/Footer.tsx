@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/anh-nguyen-54647b217/"
+            href="https://www.linkedin.com/in/zoey-ng/"
             rel="noreferrer"
             target="_blank"
           >

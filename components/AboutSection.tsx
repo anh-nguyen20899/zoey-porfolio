@@ -79,7 +79,7 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Contact: </h1>
             <span className="font-bold text-teal-500"> LinkedIn </span>
             <a
-              href="https://www.linkedin.com/in/anh-nguyen-54647b217/"
+              href="https://www.linkedin.com/in/zoey-ng/"
               rel="noreferrer"
               target="_blank"
             >
