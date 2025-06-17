@@ -6,19 +6,11 @@ import { BsGithub, BsArrowUpRightSquare, BsLinkedin } from "react-icons/bs"
 
 const projects = [
   {
-    name: ".Net Web API",
-    description: "I created a REST API project using the latest .NET 6 and MongoDb innovations.",
+    name: "PTE Platform",
+    description: "Our team built a unique online PTE academic preparation software to all students who are willing to study hard and achieve a high score to fulfil their dream of studying and working abroad",
     image: "/aspnet.jpg",
     github: "https://github.com/anh-nguyen20899/webapi-dotnet",
     link: "https://github.com/anh-nguyen20899/webapi-dotnet",
-  },
-  {
-    name: "Carina EyeCare ",
-    description:
-      "This platform is about to provide Optometry Services in Burwood",
-    image: "/next.svg",
-    github: "https://github.com",
-    link: "https://carinaeyecare.com.au/",
   },
   {
     name: "LearnIt Platform",
@@ -27,14 +19,6 @@ const projects = [
     image: "/learnIt.png",
     github: "https://github.com/anh-nguyen20899/learning-mern-project",
     link: "https://sparkly-piroshki-ab82fb.netlify.app/login",
-  },
-  {
-    name: "Todo App",
-    description:
-      "This is a simple todo App written by ReactJS",
-    image: "/vercel.svg",
-    github: "https://github.com/anh-nguyen20899/react-todo-app",
-    link: "https://react-todo-app-six-zeta.vercel.app/",
   },
   {
     name: "Health Care Management",
@@ -51,6 +35,22 @@ const projects = [
     github:"",
     linkedIn: "https://www.linkedin.com/company/pursuited/?originalSubdomain=au",
     link: "https://www.pursuited.com/platform/",
+  },
+  {
+    name: "Carina EyeCare ",
+    description:
+      "This platform is about to provide Optometry Services in Burwood",
+    image: "/next.svg",
+    github: "https://github.com",
+    link: "https://carinaeyecare.com.au/",
+  },
+  {
+    name: "Todo App",
+    description:
+      "This is a simple todo App written by ReactJS",
+    image: "/vercel.svg",
+    github: "https://github.com/anh-nguyen20899/react-todo-app",
+    link: "https://react-todo-app-six-zeta.vercel.app/",
   },
 ]
 
@@ -93,7 +93,7 @@ const ProjectsSection = () => {
                         />
                       </Link> ) : project.linkedIn ? (
                           <Link href={project.linkedIn} target="_blank">
-                        <BsGithub
+                        <BsLinkedin
                             size={30}
                             className="hover:-translate-y-1 transition-transform cursor-pointer"
                           />
