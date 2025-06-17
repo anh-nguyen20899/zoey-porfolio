@@ -6,18 +6,21 @@ import {
   AiOutlineMail
 } from "react-icons/ai"
 const skills = [
-  { skill: "HTML CSS" },
-  { skill: "Tailwind CSS" },
+  { skill: "HTML5 CSS3" },
+  { skill: "Story Blok" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "VueJS" },
   { skill: "ReactJS" },
-  { skill: "NextJS" },
-  { skill: "Angular 8+" },
-  { skill: "C# Dotnet" },
-  { skill: "Java" },
+  { skill: "Angular 11" },
+  { skill: "Node JS (Express, NextJS)" },
+  { skill: "C# .NET Core" },
   { skill: "Python" },
-  { skill: "SQL/NoSQL" },
+  { skill: "SQL Server, MySQL" },
+  { skill: "No SQL MongoDB" },
+  { skill: "RESTful APIs" },
+  { skill: "Postman / Swagger" },
+  { skill: "Rabbit MQ, AWS SNS" },
   { skill: "Git" },
   { skill: "AWS" },
 ]
