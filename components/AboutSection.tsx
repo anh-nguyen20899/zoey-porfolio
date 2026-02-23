@@ -6,23 +6,15 @@ import {
   AiOutlineMail
 } from "react-icons/ai"
 const skills = [
-  { skill: "HTML5 CSS3" },
-  { skill: "Story Blok" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "VueJS" },
-  { skill: "ReactJS" },
-  { skill: "Angular 11" },
-  { skill: "Node JS (Express, NextJS)" },
-  { skill: "C# .NET Core" },
-  { skill: "Python" },
-  { skill: "SQL Server, MySQL" },
-  { skill: "No SQL MongoDB" },
-  { skill: "RESTful APIs" },
-  { skill: "Postman / Swagger" },
-  { skill: "Rabbit MQ, AWS SNS" },
-  { skill: "Git" },
-  { skill: "AWS" },
+  { skill: "Mobile-Responsive Websites" },
+  { skill: "Booking & Appointment Systems" },
+  { skill: "Admin Dashboards" },
+  { skill: "Automated Email & SMS Notifications" },
+  { skill: "Automated Inventory Controls" },
+  { skill: "Performance-Optimized Applications" },
+  { skill: "Real-time Availability Sync" },
+  { skill: "Social Media & Chatbot Integration" },
+  { skill: "Search Engine Optimization" },
 ]
 
 const AboutSection = () => {
@@ -39,18 +31,22 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>
-              Hi, my name is Zoey and I am an{" "}
-              <span className="font-bold">{"ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span> software engineer
-              {/* based in Sydney, NSW. */}
-            </p>
+
             <br />
-            <p>
-            As a software engineer, I am familiar with browser testing, debugging, handling API requests and building beautiful UI layouts.
-            </p>
+              <p>
+                Hi, I’m Zoe — a developer specializing in{" "}
+                <span className="font-bold text-teal-500">
+                  booking and service management platforms
+                </span>.
+              </p>
             <br />
+              I have built high-performance systems for Healthcare, Recruitment, and PTE Education. 
+              I now leverage this expertise to help <span className="text-teal-500 font-bold">businesses</span>  manage appointments, users, and payments efficiently.
+            <br/>
+            <br/>
+            From <span className="text-teal-500 font-bold">seamless booking engines</span> to smart admin dashboards, I create tools that turn manual work into smooth digital experiences.
             <p>
+            <br />
             I am excited to see{" "}
               <span className="font-bold text-teal-500"> new opportunities. 🙂
               </span>{" "}
